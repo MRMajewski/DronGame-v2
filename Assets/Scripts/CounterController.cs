@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CounterController : MonoBehaviour {
 
 
-    int numberOfBoxes;
+    public int numberOfBoxes;
     public Text counterView;
 
 	// Use this for initialization
@@ -15,8 +15,8 @@ public class CounterController : MonoBehaviour {
         ResetCounter();
 
     }
-	
-public void IncrementCounter()
+
+    public void IncrementCounter()
     {
         numberOfBoxes++;
         counterView.text = numberOfBoxes.ToString();
@@ -24,6 +24,9 @@ public void IncrementCounter()
 
     public void ResetCounter()
     {
+
+       // numberOfBoxes = Convert.ToInt16(FindObjectOfType<PickUpCrate>());
+ 
         numberOfBoxes = 0;
         counterView.text = numberOfBoxes.ToString();
     }

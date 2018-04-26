@@ -51,8 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\CounterController.cs" />
      <Compile Include="Assets\Scripts\DronController.cs" />
+     <Compile Include="Assets\Scripts\EndOfGame.cs" />
      <Compile Include="Assets\Scripts\FailController.cs" />
      <Compile Include="Assets\Scripts\FollowingHero.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />

@@ -5,10 +5,12 @@ using UnityEngine;
 public class RestartPointsManager : MonoBehaviour {
 
     public DronController dronController; // referencja do skryptu DronController, tu w 
+    internal int numberOfBoxes;
+
     //Inspektorze dodajemy Drona
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 
