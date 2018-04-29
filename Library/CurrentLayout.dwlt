@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 1323
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 1324
+  controlID: 82
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 1325
+  controlID: 62
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -371,7 +371,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 609bffff369cffff449dffff489dffff509dffff98fbffff00000000
+    m_ExpandedIDs: 9cecffff6eedffff7ceeffff80eeffff88eeffff98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -422,14 +422,14 @@ MonoBehaviour:
     height: 539
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2663.7503993184964
+  lastFramingTime: 441.68006195797994
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 51.759342, y: -8.443568, z: -1.25}
+    m_Target: {x: 7.425984, y: -1.2865067, z: -0.11533225}
     speed: 2
-    m_Value: {x: 51.759342, y: -8.443568, z: -1.25}
+    m_Value: {x: 7.425984, y: -1.2865067, z: -0.11533225}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -457,9 +457,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 72.33013
+    m_Target: 18.28013
     speed: 2
-    m_Value: 72.33013
+    m_Value: 18.28013
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_LastProjectPath: E:\IT\Unity\Projekty\DronGame-v2
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
+    scrollPos: {x: 0, y: 127}
     m_SelectedIDs: a02a0000
     m_LastClickedID: 10912
     m_ExpandedIDs: 00000000762700005a28000064280000f6290000402a0000902b00005c2c000000ca9a3bffffff7f
@@ -606,7 +606,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000762700005a28000064280000f6290000402a0000902b00005c2c000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000762700005a28000064280000f6290000402a0000902b00005c2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -633,7 +633,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000944efefffa280000262700004c280000ba28000014290000f62800002c2b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
