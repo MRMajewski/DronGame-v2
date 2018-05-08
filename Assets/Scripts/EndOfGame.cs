@@ -7,10 +7,13 @@ public class EndOfGame : MonoBehaviour {
 
     public Text text;
 
+    
+
     public CounterController counterController;
 
     public Sprite spriteImageWin;
     public Sprite spriteImageLose;
+    public Image spriteImageBackground;
 
     public AudioClip Win;
     public AudioClip Lose;
@@ -20,6 +23,7 @@ public class EndOfGame : MonoBehaviour {
     void Start()
     {
         text.enabled = false;
+        spriteImageBackground.enabled= false;
     }
 
 
@@ -36,6 +40,7 @@ public class EndOfGame : MonoBehaviour {
             if (number >= 7)
             {
                 text.enabled = true;
+                spriteImageBackground.enabled = true;
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImageWin;
                 audioManager.ChangeMusic(Win);
             }
@@ -44,6 +49,7 @@ public class EndOfGame : MonoBehaviour {
             {
                 text.text = "YOU LOSE! NOT ENOUGH CRATES! CLICK 'ESCAPE' TO EXIT";
                 text.enabled = true;
+                spriteImageBackground.enabled = true;
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImageLose;
                 audioManager.ChangeMusic(Lose);
             }
